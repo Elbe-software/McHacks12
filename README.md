@@ -76,3 +76,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 #hello world
 >>>>>>> 2fdd887a232a0583f48e5b614a1e46afa8364c77
+
+
+#I ma paul and I try
