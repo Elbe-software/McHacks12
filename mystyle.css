@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e57373;
+    padding: 1rem;
+    color: white;
+    border-radius: 8px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.home-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Title Section */
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+/* Cafe Info */
+.cafe-info {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.cafe-image img {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.cafe-details p {
+    margin-bottom: 0.5rem;
+}
+
+.cafe-details a {
+    color: #e57373;
+    text-decoration: none;
+}
+
+.cafe-details a:hover {
+    text-decoration: underline;
+}
+
+/* Reviews Section */
+.reviews-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.review-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.review-meta {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+/* Image Grid */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.grid-item img {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
